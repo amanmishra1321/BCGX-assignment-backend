@@ -1,7 +1,13 @@
-Create virtual environment to manage install packages seperating by using command:
+Commands to run backend:
+
+1) Create virtual environment to manage install packages seperating by using command:
   python -m venv venv
 
+2) pip install -r requirements.txt
 
+3) python manage.py makemigrations
+
+4) python manage.py migrate
 
 
 
